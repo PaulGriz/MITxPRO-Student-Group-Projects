@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+.flex-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh; */
+  width: 100%;
+}
+
+.project-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  max-width: 750px;
+  margin: 0rem 3rem;
+}
+
+
+h1 {
+  margin-top: 3rem;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  color: #000000;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
+
+h1.heading {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+h2 > a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1.7rem;
+  color: #062b2f;
+  letter-spacing: 1px;
+  margin-bottom: 0.1rem;
+  text-decoration: none;
+}
+
+h2 > a:hover {
+  color: #117883;
+  text-decoration: underline;
+}
+
+
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: #888888;
+  line-height: 1.6;
+}
+
+p.difficulty {
+  color: #a19f9f;
+  font-style: oblique;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+button.home-button {
+  display: inline-block;
+  max-width: 7rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 1rem;
+  margin-bottom: 7rem; /* To add space at the bottom until footer is added */
+}
+
+
+button.home-button:hover {
+  background-color: #0056b3;
+}
+
+button.home-button:focus {
+  outline: none;
+}
+
+img.project-image {
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 1rem;
+}
