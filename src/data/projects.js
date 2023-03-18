@@ -15,8 +15,8 @@ const projects = [
     description: "React, OpenAI, & Next.js",
     difficulty: "Medium",
     image: '/images/story-generator.png',
-    Github_Link: "TODO - Not Posted Yet",
-    Preview_Link: "https://paulgriz-ai-story-teller.vercel.app/",
+    Github_Link: "https://github.com/PaulGriz/AI-Story-Generator",
+    Preview_Link: "https://ai-story-teller.vercel.app/",
     Project_Description: "This is a story generator built with React, OpenAI, & Next.js. It uses the OpenAI API to generate stories. It uses Next.js for server-side rendering. Lorem ipsum in nostrud ex do reprehenderit adipisicing ut. Ad cillum dolor irure officia cupidatat laboris ullamco. Incididunt anim est enim exercitation dolore in veniam esse proident anim. Lorem eiusmod ut nulla aute sit aliqua ad adipisicing nostrud tempor. Adipisicing qui reprehenderit pariatur proident Lorem cillum nostrud laboris nisi proident excepteur eiusmod adipisicing.",
 
   },
